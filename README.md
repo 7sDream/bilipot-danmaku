@@ -9,7 +9,7 @@
 ### Docker 镜像
 
 ```bash
-docker run -d -p 127.0.0.1:9999:9999/tcp ghcr.io/7sDream/bilipot-danmaku:latest
+docker run -d -p 127.0.0.1:9999:9999/tcp ghcr.io/7sdream/bilipot-danmaku:latest
 ```
 
 ### 直接本地使用
