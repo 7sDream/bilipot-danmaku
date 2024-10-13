@@ -1,0 +1,10 @@
+[project]
+name = "bilipot-danmaku"
+version = "0.1.0"
+description = "BilibiliPotPlayer danmaku to subtitle convert server"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.0.3",
+    "requests>=2.32.3",
+]
