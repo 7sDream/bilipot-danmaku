@@ -4,6 +4,8 @@
 
 ## 使用方法
 
+无论用那种方法，运行起来后需要将 BiliBiliPotplayer 的配置文件里的 [`danmaku.server`] 修改为 `http://127.0.0.1:9999`。
+
 ### Docker 镜像
 
 ```bash
@@ -23,3 +25,4 @@ uv run main.py
 
 [lm379/subtitle]: https://github.com/lm379/subtitle
 [`uv`]: https://docs.astral.sh/uv/getting-started/installation/
+[`danmaku.server`]: https://github.com/chen310/BilibiliPotPlayer/blob/master/Media/PlayParse/Bilibili_Config.json#L7
